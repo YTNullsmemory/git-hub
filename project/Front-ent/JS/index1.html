@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/HomeWork</title>
+    <style>
+        body {
+            color: red;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+           let userName = prompt("Write your name", "Mykhailo");
+        if (userName!== "Mykhailo"){alert('No data in the system'); }
+        else{
+         let userPasword = prompt("Write your pasword", "1234");
+        if (userPasword!== "1234"){alert("Wrong Password"); }
+        else{
+           alert("Welcom ");
+         document.write("<p>"+"<span id="ec>"+"Good Morning "+"<span>"</p>
+            let numUser; 
+    let count=0;
+    let numX=Math.round((Math.random()*100));
+     do { numUser = prompt("вгадайте число від 0 до 100", 0); 
+    count++;
+    if (numUser===null) { 
+    alert("Ми чекали від Вас число");
+    } else if (+numUser<numX) { 
+alert("Ваше число менше"); 
+} else if (+numUser>numX){
+alert("Ваше число більше"); 
+} else { 
+alert("Ура!!! Вгадали!!! "+numX+" за " + count+" спроб"); } 
+} while (numUser != numX && numUser != null);
+
+    </script>
+</body>
+</html>

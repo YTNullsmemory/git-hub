@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(200, 255, 0);
+}
+.nav {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(53, 12, 238);
+    background-color: aqua;
+    border-radius: 60px;
+    padding: 26px;
+}

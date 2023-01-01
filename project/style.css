@@ -1,0 +1,40 @@
+table {
+    border: 1px  rgb(54, 214, 22) dashed;
+    border-collapse:collapse ;
+}
+td{
+    border: 1px  rgba(18, 235, 116, 0.507) dotted;
+}
+p {
+    color: brown;
+    font-size: 20px;
+}
+#p-1 {
+    color: aqua;
+}
+.p-size {
+    font-size: 26px;
+}
+table,
+td {
+    border: 3px rgb(0, 255, 34) solid;
+    border-collapse: collapse;
+}
+
+td {
+    border: 3px rgb(255, 0, 0) dotted;
+}
+.nav {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(53, 12, 238);
+    background-color: aqua;
+    border-radius: 60px;
+    padding: 26px;
+}

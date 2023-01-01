@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oi&display=swap" rel="stylesheet">
+	<title>JavaScript</title>
+	<style type="text/css">
+		body{
+			background-color: yellow;
+			color: blue;
+			font-size: 50px;
+			font-family: 'Oi', cursive;
+		}
+	</style>
+</head>
+<body>
+<p>Ми вивчаємо JavaScript</p>
+<script type="text/javascript">
+	let userName = prompt("Введіть Ваше ім`я","Cześć kurwa")
+alert ("Привіт тобі "+userName);
+	let a = +prompt("enter side a", "10")
+	let b = +prompt("Enter side b", "23")
+	let P=(a+b)*2;
+	let S=(a*b);
+	document.writeln("P="+P)
+	document.writeln("S="+S)
+
+	
+	let spaceYear = prompt('В якому році Юрій Гагарін полетів у космос?','');
+	if (spaceYear==null) {
+		alert('До побачення');
+	}
+	else if (spaceYear < 1961) {
+		alert('Та ні, це щось дуже рано!');
+	}
+	else if (spaceYear > 1961) {
+		alert('О ні, в цей час вже багато хто політав!');
+	}
+	else if(spaceYear==1961) {
+		alert('Так, Ваша відповідь правильна!');
+	}
+	else {
+		alert('Вводьте числа!')
+	}
+</script>
+</body>
+</html>

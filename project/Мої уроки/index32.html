@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Slider using JS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Project Styles -->
+    <link rel="stylesheet" href="index32.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slider-items">
+            <img class="slider-item active" src="изображение_viber_2022-09-01_13-18-24-225.jpg">
+            <img class="slider-item" src="изображение_viber_2022-09-01_13-18-27-524.jpg">
+            <img class="slider-item" src="изображение_viber_2022-09-01_13-18-27-647.jpg">
+        </div>
+
+        <div class="slider-controls">
+            <span
+                class="fas fa-chevron-left prev"
+                onclick="changeSlide(-1)"
+            >
+            </span>
+            <span
+                class="fas fa-chevron-right next"
+                onclick="changeSlide(1)"
+            >
+            </span>
+        </div>
+        <div class="slider-indicators">
+            <span class="active" onclick="moveTo(1)"></span>
+            <span onclick="moveTo(2)"></span>
+            <span onclick="moveTo(3)"></span>
+        </div>
+    </div>
+    <!-- Project Scripts -->
+    <script type="text/javascript" src="index32.js"></script>
+</body>
+</html>

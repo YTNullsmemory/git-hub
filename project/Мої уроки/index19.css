@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        45deg, #090a10 40%, #161b24
+    );
+}
+.glitch {
+    width: 300px;
+    height: 300px;
+    background: url(изображение_viber_2022-08-17_16-02-03-836.jpg);
+    background-size: cover;
+    animation: glitch 3.5s infinite steps(1);
+}
+@keyframes glitch {
+    0%, 100% {
+        background: url(изображение_viber_2022-08-17_16-02-03-836.jpg);
+        background-size: cover;
+        opacity: 1;
+    }
+     95.5% {
+    background: url(glitch-image-1661428037.png);
+    background-size: cover;
+    }
+    95% {
+     background: url(glitch-image-1661428136.png);
+     background-size: cover;
+     opacity: 0;
+     }
+     97.5% {
+    background: url(glitch-image-1661428143.png);
+    background-size: cover;
+    opacity: 1;
+      }
+}

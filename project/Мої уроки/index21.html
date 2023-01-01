@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CODE WITH HOSSEIN</title>
+    <!-- DynaPuff Font -->
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="index21.css">
+</head>
+<body>
+    <!-- Player Selection -->
+    <div class="selection">
+        <h2>Крестики-нолики</h2>
+        <p>Выберите проигрыватель</p>
+        <div class="players">
+            <button class="player" onClick="playerSelect('X')">
+                X
+            </button>
+            <button class="player" onClick="playerSelect('O')">
+                O
+            </button>
+        </div>
+    </div>
+    <!-- Playing Board -->
+    <div class="play-board">
+        <table>
+            <tr>
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+        </table>
+        <!-- Reset Button -->
+        <button class="reset" onclick="startGame()">Перезагрузить</button>
+    </div>
+    <!-- Winner Declaration -->
+    <div class="winner">
+        <h3>ubjknool.</h3>
+        <!-- Reset Button -->
+        <button class="reset" onclick="startGame()">Играть снова</button>
+    </div>
+    <!-- JS File -->
+    <script src="index21.js" type="text/javascript"></script>
+</body>
+</html>
